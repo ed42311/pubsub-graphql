@@ -1,0 +1,39 @@
+{
+  "name": "pubsub-graphql",
+  "version": "1.0.0",
+  "description": "pubsub with react frontend and redis graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/",
+    "dev": "./node_modules/nodemon/bin/nodemon.js server/ --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ed42311/pubsub-graphql.git"
+  },
+  "author": "ed42311",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ed42311/pubsub-graphql/issues"
+  },
+  "homepage": "https://github.com/ed42311/pubsub-graphql#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.5"
+  },
+  "dependencies": {
+    "apollo-server": "^2.1.0",
+    "apollo-server-express": "^2.1.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2",
+    "graphql-redis-subscriptions": "^2.0.0",
+    "graphql-subscriptions": "^1.0.0",
+    "ioredis": "^4.2.0",
+    "uuid": "^3.3.2"
+  }
+}
